@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jogo</title>
+	<script src="personagensJS.js"></script>
+
+	<style type="text/css">
+	body{
+		margin: 0 auto;
+		background: #DDD;
+	}
+	table{
+		width:80%;
+		margin: 0 auto;
+		margin-top: 0px;
+	}
+
+	#cabecalho{
+		float: right;
+		margin-top:30px;
+		margin-right: 20px;	
+	}
+	p{			
+		margin-right: 200px;
+		margin-left: 200px;
+	}
+
+	h3{
+		margin-left:200px ;
+		margin-top: 30px;
+	}
+	footer{
+		padding: 10px;
+		text-align: center;
+	}
+</style>
+</head>
+
+<body>
+<table>
+
+<tr>
+	<td>
+	
+	<div  id ="cabecalho">
+	<a href="home.html">Inicio|</a>
+	<a href="jogo.html">Jogabibilidade e personagens|</a>
+	<a href="personagens.html">Criar personagens|</a>
+	<a href="sobre.html">Sobre</a>
+	</div>
+	<div id="cabecalho2">
+	<h1>BTM@EB:: Jogabilidade e personagens</h1>		 					
+	</div>	
+		 		
+	</td>	 	
+	</tr>
+	<tr>
+	<td><h3>Jogabibilidade</h3></td>
+	</tr>
+	<tr>
+	<td>
+	<p> 
+		<br>A batalha ocorre por turnos de forma automática e é realizada em um cenário fixo no qual podem ser alocados até oito jogadores, sendo que só pode haver um personagem de cada nação e não existem alianças e “amizades” entre os personagens, portanto eles se enfrentam em duelos de um contra o outro em cada rodada e o vencedor avança para a próxima rodada. No início da rodada, os personagens são distribuídos aleatoriamente em pares para realizarem a batalha e, caso a quantidade de personagens na batalha seja ímpar, um deles ficará fora da batalha e se classificará automaticamente para a rodada seguinte. Os vencedores de uma rodada são novamente distribuídos aleatoriamente para se enfrentarem em uma nova batalha. As rodadas são repetidas de acordo com a quantidade restante de personagens na arena, até que ocorra a batalha final e seja definido um personagem como o vencedor. <br>
+		A batalha é realizada em turnos de duelos diretos entre dois personagens. Porém, é preciso descrever mais detalhes como se deve determinar o vencedor de cada duelo contra todos. <br> 
+		Antes, deve-se observar que um duelo possui como informações de entrada: o cenário da batalha e os dois personagens do confronto com as suas características. <br> Após o
+		confronto, a informação de saída é o vencedor do confronto com os danos que sofreu e
+		infringiu
+		
+	</p>
+	</td>
+	</tr>		 
+	 <tr>	 			
+	 <td>
+	 <h3>Personagens</h3>
+	 </td>
+	 </tr>
+     <tr>
+	 <td>
+					<p>Neste jogo, foram selecionadas as seguintes nações da Terra-Média: Orc Snaga,
+						Uruk-hai, Cavaleiro de Rohan, Guerreiro de Gondor, Hobbit, Elfo da Floresta, Elfo de
+						Lothlórien e anão. A casa de cada nação é, respectivamente, Cirith Ungol, Portão Negro,
+						Abismo de Helm, Minas Tirith, O Condado, Floresta das Trevas ou Mirkwood, Caras
+						Galadhon ou Cidade das Árvores e Colinas de Ferro. A Tabela 1 descreve a ligação entre
+						cada nação e a sua casa. <br> Considerando as características dos personagens cada personagem é de uma nação e possui 5 habilidades, força, velocidade, precisão,
+						armadura e recuperação. Além da nacionalidade e das 5 habilidades, o personagem possui
+						seus pontos de energia e um nome para identificá-lo ao longo de suas interações no jogo.
+						No início do jogo, o personagem possui 100 pontos de energia e outros 100 pontos de
+						habilidades que devem ser distribuídos entre as habilidades da forma que o jogador
+						preferir.</p>
+
+						<p>
+						• <b>Força</b>: a capacidade que o personagem possui de infringir danos no adversário no
+						combate a curta distância; <br>
+						• <b>Precisão</b>: a precisão denota a capacidade na qual o personagem tem para infringir
+						danos no adversário à longa distância; <br>
+						• <b>Velocidade</b>: o tempo no qual o personagem leva para se aproximar do adversário; <br>
+						• <b>Armadura</b>: o quanto reduz o impacto dos ataques do adversário, independente da
+						distância na qual os ataques são realizados; <br>
+						• <b>Recuperação</b>: a capacidade de recuperar pontos para a próxima batalha.
+						
+						<div class="button">
+							<button type="button" onclick="nacao()">Nações</button>
+						</div>
+						
+						</p>
+						
+						
+		</td>
+		</tr>		
+			<tr>			
+			<td colspan="2">
+     	   	<footer>   	   		
+     	   		Cursos de TI da Estácio de Brasília em 2022.1 (TIEB 2022.1)</br>Todos os direitos reservados</br>
+				(Terra- Média, locais e personagens são direitos de <a href="https://www.middleearth.com/home.html">Tolkien Enterprises</a>)
+     	   		</footer>			
+				</td>
+			</tr>
+</table>
+
+</body>
+</html>
